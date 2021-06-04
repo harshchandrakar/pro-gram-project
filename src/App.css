@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap");
+* {
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #181616;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__posts {
+  padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__header {
+  background-color: #000000;
+  object-fit: contain;
+  /* border-bottom: 1px solid lightgray; */
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px #86c427;
+  color: #a8f731;
+}
+/* .app__header span {
+  color: #ff0099;
+} */
+.app__signup {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 70px;
+  background-color: #000000;
 }
-
-.App-link {
-  color: #61dafb;
+.btn {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #a8f731;
+  margin: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__heading {
+  color: #a8f731;
+  font-family: "Cinzel Decorative", cursive;
+}
+.app__heading span {
+  color: #ff0099;
+}
+.app__upload {
+  background-color: #000000;
+  border: 0;
+  font-size: 1.7em;
+  color: #a8f731;
 }
